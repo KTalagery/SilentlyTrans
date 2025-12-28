@@ -3,10 +3,10 @@
 If u have access to this be VERY careful with what you push and work within.
 
 ## After pulling the repo
-1) Make a new folder under Assets called ZZ_[nameOrNickname]_Private
+1) Make a new folder under Assets called ZZ\_[name]\_Private
      This must, and I mean MUST, start with "ZZ_" and be under assets.
      Mine is Assets/ZZ_kTalagery_Private/ and contains ALL my private files.
-2) Create a sandbox scene for yourself. You will work most of the time within your own sandbox scene.
+2) Create a sandbox scene for yourself in your folder. You will work most of the time within your own sandbox scene.
      Need the updated main scene? Copy and paste the scene file into your private folder.
      Need to IMPLEMENT things into the main scene? Make sure nobody else is working in there, then go in, add it, push your changes, and continue working in your scene.
 3) Work very often in prefabs instead of scenes.
