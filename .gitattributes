@@ -2,3 +2,6 @@
 * text=auto
 *.unity eol=lf
 *.meta eol=lf
+*.prefab eol=lf
+*.mat eol=lf
+*.jsom eol=lf
