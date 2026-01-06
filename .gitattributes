@@ -4,6 +4,7 @@
 *.meta eol=lf
 *.prefab eol=lf
 *.mat eol=lf
-*.json eol=lf
+*.json' eol=lf
 *.asset eol=lf
 *.cs eol=lf
+*.shader' eol=lf
