@@ -4,4 +4,6 @@
 *.meta eol=lf
 *.prefab eol=lf
 *.mat eol=lf
-*.jsom eol=lf
+*.json eol=lf
+*.asset eol=lf
+*.cs eol=lf
