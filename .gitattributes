@@ -8,3 +8,9 @@
 *.asset eol=lf
 *.cs eol=lf
 *.shader' eol=lf
+*.asmdef eol=lf
+*.hlsl eol=lf
+*.json eol=lf
+*.shadersubgraph eol=lf
+*.uxml eol=lf
+*.uss eol=lf
