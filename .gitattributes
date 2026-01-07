@@ -1,25 +1,2 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.unity eol=lf
-*.meta eol=lf
-*.prefab eol=lf
-*.mat eol=lf
-*.json' eol=lf
-*.asset eol=lf
-*.cs eol=lf
-*.shader eol=lf
-*.asmdef eol=lf
-*.hlsl eol=lf
-*.json eol=lf
-*.shadersubgraph eol=lf
-*.uxml eol=lf
-*.uss eol=lf
-*.md eol=lf
-*.shadergraph eol=lf
-*.lighting eol=lf
-*.controller eol=lf
-*.asmref eol=lf
-*.meta eol=lf
-*.anim eol=lf
-*.template eol=lf
-*.png eol=lf
