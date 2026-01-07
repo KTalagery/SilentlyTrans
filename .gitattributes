@@ -21,3 +21,5 @@
 *.asmref eol=lf
 *.meta eol=lf
 *.anim eol=lf
+*.template eol=lf
+*.png eol=lf
