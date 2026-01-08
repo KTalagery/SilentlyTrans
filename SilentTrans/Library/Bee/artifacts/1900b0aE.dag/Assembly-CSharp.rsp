@@ -369,9 +369,9 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"E:/Unity Hub/Editor/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"E:/Unity Hub/Editor/2022.3.9f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Assets/BK_AlchemistHouse/Scripts/FreeCamera.cs"
-"Assets/BK_AlchemistHouse/Scripts/VolumetricLight.cs"
-"Assets/BK_AlchemistHouse/Scripts/VolumetricLightRenderer.cs"
+"Assets/ZZ_Sandbox_Private/BK_AlchemistHouse/Scripts/FreeCamera.cs"
+"Assets/ZZ_Sandbox_Private/BK_AlchemistHouse/Scripts/VolumetricLight.cs"
+"Assets/ZZ_Sandbox_Private/BK_AlchemistHouse/Scripts/VolumetricLightRenderer.cs"
 -langversion:9.0
 
 /deterministic
