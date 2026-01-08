@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/ZZ_Sandbox_Private/Playback Protocol_WhiteBox 1.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
