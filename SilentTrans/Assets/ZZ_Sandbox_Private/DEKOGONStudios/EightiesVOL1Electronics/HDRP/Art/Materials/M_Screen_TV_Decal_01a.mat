@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 7
 --- !u!21 &2100000
 Material:
   serializedVersion: 8
@@ -21,28 +21,25 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Screen_TV_Decal_01a
-  m_Shader: {fileID: -6465566751694194690, guid: a956958e250274249b76735a1faddf8b,
-    type: 3}
-  m_ValidKeywords:
-  - _MATERIAL_AFFECTS_ALBEDO
-  - _MATERIAL_AFFECTS_MASKMAP
-  - _MATERIAL_AFFECTS_NORMAL
-  m_InvalidKeywords:
-  - _DISABLE_SSR_TRANSPARENT
-  - _MASKMAP
-  - _NORMALMAP_TANGENT_SPACE
+  m_Shader: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2000
+  m_CustomRenderQueue: -1
   stringTagMap:
     MotionVector: User
+    RenderType: Opaque
   disabledShaderPasses:
   - TransparentDepthPrepass
   - TransparentDepthPostpass
   - TransparentBackface
   - RayTracingPrepass
   - MOTIONVECTORS
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -66,12 +63,20 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _CoatMaskMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _CustomScreenTexture:
         m_Texture: {fileID: 2800000, guid: abc00000000014597948484106481300, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailMap:
@@ -83,6 +88,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -103,11 +112,15 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: abc00000000011073519996722353311, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MaskMap:
         m_Texture: {fileID: 2800000, guid: abc00000000002955356469875523050, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalMap:
@@ -134,7 +147,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: abc00000000016589087792890540263, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_207282dae7a447a09f7f26fa3bb7ad4e_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: abc00000000016589087792890540263, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_32c89d46b6a0465a9cd8f5529b6b1076_Texture_1:
+        m_Texture: {fileID: 2800000, guid: abc00000000016589087792890540263, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_32c89d46b6a0465a9cd8f5529b6b1076_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: abc00000000016589087792890540263, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -142,7 +163,15 @@ Material:
         m_Texture: {fileID: 2800000, guid: abc00000000016589087792890540263, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_4bea29ab2f484daaa82bb587f77e43d3_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: abc00000000016589087792890540263, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_6e90f649ce8d41de8c9f9059286afe6f_Texture_1:
+        m_Texture: {fileID: 2800000, guid: abc00000000006181495008276230361, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_6e90f649ce8d41de8c9f9059286afe6f_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: abc00000000006181495008276230361, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -150,11 +179,23 @@ Material:
         m_Texture: {fileID: 2800000, guid: abc00000000016589087792890540263, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8385a1c4e27d4eaa98837b54628f95e0_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: abc00000000016589087792890540263, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_8f5148f5ca454581ba8828e1f5ecf104_Texture_1:
         m_Texture: {fileID: 2800000, guid: abc00000000005834009864546127410, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8f5148f5ca454581ba8828e1f5ecf104_Texture_1_Texture2D:
+        m_Texture: {fileID: 2800000, guid: abc00000000005834009864546127410, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_d0004823992e460ba1bf7e32e0345665_Texture_1:
+        m_Texture: {fileID: 2800000, guid: abc00000000016589087792890540263, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_d0004823992e460ba1bf7e32e0345665_Texture_1_Texture2D:
         m_Texture: {fileID: 2800000, guid: abc00000000016589087792890540263, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
@@ -224,8 +265,13 @@ Material:
     - _Amplitude: 1
     - _Anisotropy: 0
     - _B: 1
+    - _Blend: 0
     - _BlendMode: 0
+    - _BlendModePreserveSpecular: 1
     - _Brightness: 1
+    - _BumpScale: 1
+    - _ClearCoatMask: 0
+    - _ClearCoatSmoothness: 0
     - _CoatMask: 0
     - _ColorBars: 0
     - _ConservativeDepthOffsetEnable: 0
@@ -245,7 +291,9 @@ Material:
     - _DecalStencilRef: 16
     - _DecalStencilWriteMask: 16
     - _DepthOffsetEnable: 0
+    - _DetailAlbedoMapScale: 1
     - _DetailAlbedoScale: 1
+    - _DetailNormalMapScale: 1
     - _DetailNormalScale: 1
     - _DetailSmoothnessScale: 1
     - _DiffusionProfile: 0
@@ -260,6 +308,7 @@ Material:
     - _DoubleSidedNormalMode: 1
     - _DrawOrder: 0
     - _DstBlend: 0
+    - _DstBlendAlpha: 0
     - _EmissiveColorMode: 1
     - _EmissiveExposureWeight: 1
     - _EmissiveIntensity: 1
@@ -268,7 +317,11 @@ Material:
     - _EnableFogOnTransparent: 1
     - _EnableGeometricSpecularAA: 0
     - _EnergyConservingSpecularColor: 1
+    - _EnvironmentReflections: 1
     - _Glitch: 0.3
+    - _GlossMapScale: 0
+    - _Glossiness: 0
+    - _GlossyReflections: 0
     - _HeightAmplitude: 0.02
     - _HeightCenter: 0.5
     - _HeightMapParametrization: 0
@@ -292,13 +345,17 @@ Material:
     - _NormalMapSpace: 0
     - _NormalScale: 1
     - _NumberDisplay: 0
+    - _OcclusionStrength: 1
     - _OpaqueCullMode: 2
     - _PPDLodThreshold: 5
     - _PPDMaxSamples: 15
     - _PPDMinSamples: 5
     - _PPDPrimitiveLength: 1
     - _PPDPrimitiveWidth: 1
+    - _Parallax: 0.005
+    - _QueueOffset: 0
     - _RayTracing: 0
+    - _ReceiveShadows: 1
     - _ReceivesSSR: 1
     - _ReceivesSSRTransparent: 0
     - _RefractionModel: 0
@@ -308,11 +365,14 @@ Material:
     - _Smoothness: 0.5
     - _SmoothnessRemapMax: 0.5684056
     - _SmoothnessRemapMin: 0.43997484
+    - _SmoothnessTextureChannel: 0
     - _SpecularAAScreenSpaceVariance: 0.1
     - _SpecularAAThreshold: 0.2
+    - _SpecularHighlights: 1
     - _SpecularOcclusionMode: 1
     - _Speed: 1
     - _SrcBlend: 1
+    - _SrcBlendAlpha: 1
     - _Static: 1
     - _StaticBrightness: 1.5
     - _StencilRef: 0
@@ -327,6 +387,7 @@ Material:
     - _StencilWriteMaskMV: 40
     - _SubsurfaceMask: 1
     - _SupportDecals: 1
+    - _Surface: 0
     - _SurfaceType: 0
     - _TexWorldScale: 1
     - _TexWorldScaleEmissive: 1
@@ -347,6 +408,7 @@ Material:
     - _UseEmissiveIntensity: 0
     - _UseShadowThreshold: 0
     - _WaveSpeed: -0.01
+    - _WorkflowMode: 1
     - _ZTestDepthEqualForOpaque: 3
     - _ZTestGBuffer: 4
     - _ZTestTransparent: 4
